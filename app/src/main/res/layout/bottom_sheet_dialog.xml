@@ -1,0 +1,237 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="344dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/calculations"
+    android:background="@drawable/dialog_bg">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            tools:ignore="UselessParent">
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:orientation="vertical">
+
+                    <!-- Title TextView -->
+
+
+                    <TextView
+                        android:id="@+id/cementCostTextView"
+                        android:layout_width="327dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@drawable/round_btn_w_bg3"
+                        android:fontFamily="@font/consola"
+                        android:text="@string/cement_cost_php_0_0"
+                        android:textColor="#5D4037"
+                        android:textSize="20sp"
+                        tools:ignore="TextSizeCheck,VisualLintBounds" />
+
+                    <TextView
+                        android:id="@+id/cementQuantityTextView"
+                        android:layout_width="327dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@drawable/round_btn_w_bg3"
+                        android:fontFamily="@font/consola"
+                        android:text="@string/cement_quantity"
+                        android:textColor="#5D4037"
+                        android:textSize="15sp"
+                        tools:ignore="TextSizeCheck,VisualLintBounds" />
+
+                    <TextView
+                        android:id="@+id/sandCostTextView"
+                        android:layout_width="327dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@drawable/round_btn_w_bg3"
+                        android:fontFamily="@font/consola"
+                        android:text="@string/sand_cost_php_0_0"
+                        android:textColor="#5D4037"
+                        android:textSize="20sp"
+                        tools:ignore="VisualLintBounds,TextSizeCheck" />
+                    <TextView
+                        android:id="@+id/sandQuantityTextView"
+                        android:layout_width="327dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@drawable/round_btn_w_bg3"
+                        android:fontFamily="@font/consola"
+                        android:text="@string/sand_quantity"
+                        android:textColor="#5D4037"
+                        android:textSize="15sp"
+                        tools:ignore="TextSizeCheck,VisualLintBounds" />
+
+
+                    <TextView
+                        android:id="@+id/gravelCostTextView"
+                        android:layout_width="327dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@drawable/round_btn_w_bg3"
+                        android:fontFamily="@font/consola"
+                        android:text="@string/gravel_cost_php_0_0"
+                        android:textColor="#5D4037"
+                        android:textSize="20sp"
+                        tools:ignore="VisualLintBounds,TextSizeCheck" />
+                    <TextView
+                        android:id="@+id/gravelQuantityTextView"
+                        android:layout_width="327dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@drawable/round_btn_w_bg3"
+                        android:fontFamily="@font/consola"
+                        android:text="@string/gravel_quantity"
+                        android:textColor="#5D4037"
+                        android:textSize="15sp"
+                        tools:ignore="TextSizeCheck,VisualLintBounds" />
+
+                    <TextView
+                        android:id="@+id/chbCostTextView"
+                        android:layout_width="326dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@drawable/round_btn_w_bg3"
+                        android:fontFamily="@font/consola"
+                        android:text="@string/chb_cost_php_0_0"
+                        android:textColor="#5D4037"
+                        android:textSize="20sp"
+                        tools:ignore="TextSizeCheck,VisualLintBounds" />
+                    <TextView
+                        android:id="@+id/chbQuantityTextView"
+                        android:layout_width="327dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@drawable/round_btn_w_bg3"
+                        android:fontFamily="@font/consola"
+                        android:text="@string/chb_quantity"
+                        android:textColor="#5D4037"
+                        android:textSize="15sp"
+                        tools:ignore="TextSizeCheck,VisualLintBounds" />
+                    <TextView
+                        android:id="@+id/laborCostTextView"
+                        android:layout_width="327dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@drawable/round_btn_w_bg3"
+                        android:fontFamily="@font/consola"
+                        android:text="@string/labor_cost_php_0_0"
+                        android:textColor="#5D4037"
+                        android:textSize="20sp"
+                        tools:ignore="TextSizeCheck,VisualLintBounds" />
+                    <TextView
+                        android:id="@+id/otherCostTextView"
+                        android:layout_width="327dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@drawable/round_btn_w_bg3"
+                        android:fontFamily="@font/consola"
+                        android:text="@string/other_costs_php_0_0"
+                        android:textColor="#5D4037"
+                        android:textSize="20sp"
+                        tools:ignore="TextSizeCheck,VisualLintBounds" />
+
+                    <!-- Results TextView -->
+
+                    <TextView
+                        android:id="@+id/calculationHistoryTitleTextView"
+                        android:fontFamily="@font/consola"
+                        android:layout_width="wrap_content"
+                        android:layout_height="56dp"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="@string/calculation_history_n"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="133dp">
+
+                        <TextView
+                            android:id="@+id/calculationHistoryTextView"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="3dp"
+                            android:text=""
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            tools:ignore="ScrollViewSize" />
+
+                    </ScrollView>
+
+                </LinearLayout>
+
+            <TextView
+                android:layout_width="282dp"
+                android:layout_height="62dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/round_btn_w_bg3"
+                android:text="! Disclaimer: The cost breakdown above might not be accurate because of lack of data sets. And note that the Estimations are only Approximations of the Construction Costs."
+                android:textColor="#E3242B"
+                android:textSize="11sp"
+                tools:ignore="HardcodedText,TextSizeCheck,VisualLintBounds,TextContrastCheck" />
+
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:orientation="horizontal"
+        android:padding="0dp"
+        android:layout_marginTop="0dp">
+
+        <Button
+            android:id="@+id/download"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/download"
+            android:onClick="downloadPDF"
+            android:paddingStart="0dp"
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            android:textSize="40sp"
+
+            tools:ignore="RtlSymmetry,TextSizeCheck,SpeakableTextPresentCheck" />
+
+        <TextView
+            android:layout_width="282dp"
+            android:layout_height="29dp"
+
+            android:layout_marginTop="18dp"
+            android:background="@drawable/round_btn_w_bg3"
+            android:text="©2024 Canada, Buenafe, Lastrella"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            tools:ignore="HardcodedText,TextSizeCheck,VisualLintBounds,TextContrastCheck" />
+
+    </LinearLayout>
+</LinearLayout>

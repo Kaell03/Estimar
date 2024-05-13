@@ -1,0 +1,102 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MissingDefaultResource">
+    <ImageView
+        android:layout_width="538dp"
+        android:layout_height="479dp"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:contentDescription="@string/bg"
+        android:elevation="8dp"
+        android:src="@drawable/triangle"
+        tools:ignore="VisualLintBounds" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#333333"
+        tools:context="com.thesis.estimar.MainActivity"
+        tools:ignore="MissingDefaultResource">
+
+
+
+        <ImageView
+            android:id="@+id/psu_logo_ve"
+            android:layout_width="73dp"
+            android:layout_height="73dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/img_6"
+            android:visibility="visible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/acses"
+            android:layout_width="73dp"
+            android:layout_height="73dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/acses_logo"
+            app:layout_constraintEnd_toStartOf="@+id/cecs"
+            app:layout_constraintStart_toEndOf="@+id/psu_logo_ve"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ContentDescription,MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/cecs"
+            android:layout_width="73dp"
+            android:layout_height="73dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/round_btn45"
+            app:srcCompat="@drawable/cecs_logo"
+            app:layout_constraintEnd_toStartOf="@+id/iit"
+            app:layout_constraintStart_toEndOf="@+id/acses"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ContentDescription,MissingConstraints" />
+
+
+        <ImageView
+            android:id="@+id/iit"
+            android:layout_width="73dp"
+            android:layout_height="73dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="32dp"
+            android:background="@drawable/round"
+            app:srcCompat="@drawable/iit_logo"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/estimate"
+            android:layout_width="237dp"
+            android:layout_height="233dp"
+            android:layout_marginTop="194dp"
+            android:layout_marginBottom="194dp"
+            android:background="@drawable/round_btn"
+            android:contentDescription="@string/estimate_description"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.585"
+            app:srcCompat="@drawable/img"
+            tools:ignore="VisualLintBounds,ImageContrastCheck" />
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</FrameLayout>

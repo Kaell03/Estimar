@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="quantityEditText" type="id" />
+    <item name="totalCostTextView" type="id" />
+    <item name="calculationHistoryTextView" type="id" />
+    <item name="calculateButton" type="id" />
+    <item name="concreteVolumeEditText" type="id" />
+    <item name="imageButton2" type="id" />
+    <item name="textView" type="id" />
+    <item name="calculationHistoryTitleTextView" type="id" />
+    <item name="divider" type="id" />
+    <item name="imageView" type="id" />
+    <item name="area" type="id" />
+    <item name="floors" type="id" />
+    <item name="rooms" type="id" />
+    <item name="windows" type="id" />
+    <item name="doors" type="id" />
+    <item name="chbCostTextView" type="id" />
+    <item name="engEditText" type="id"/>
+</resources>

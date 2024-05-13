@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="storeys">
+        <item>1 Floor</item>
+        <item>2 Floors</item>
+        <item>3 Floors</item>
+    </string-array>
+    <string-array name="windows">
+        <item>jalousie</item>
+        <item>aluminum frame and glass(standard size)</item>
+        <item>aluminum frame and glass(custom size)</item>
+    </string-array>
+    <string-array name="doors">
+        <item>aluminum</item>
+        <item>panel</item>
+        <item>uPVC</item>
+    </string-array>
+    <string-array name="ceiling">
+        <item>none</item>
+        <item>gypsum</item>
+        <item>pvc panels</item>
+    </string-array>
+    <string-array name="walling">
+        <item>concrete</item>
+        <item>paint</item>
+        <item>cladding</item>
+    </string-array>
+    <string-array name="flooring">
+        <item>concrete</item>
+        <item>ceramic</item>
+        <item>granite</item>
+    </string-array>
+</resources>
+
